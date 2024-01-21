@@ -50,4 +50,7 @@ val_loader = DataLoader(val_dataset, batch_size=batch_size, num_workers=num_work
 
 #class imbalance problem
 
+#(array([0, 1]), array([18593,  5407], dtype=int64))
 print(np.unique(train_dataset.targets, return_counts=True))
+
+
